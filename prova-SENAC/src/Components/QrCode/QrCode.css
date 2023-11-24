@@ -1,0 +1,9 @@
+/* QrCode.css */
+.qr-code {
+    margin-top: 10px;
+    margin-right: -900px;
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+
+}
