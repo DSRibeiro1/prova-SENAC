@@ -1,9 +1,9 @@
-/* QrCode.css */
+/* Estilo para o componente QRCode */
 .qr-code {
-    margin-top: 10px;
-    margin-right: -900px;
-    border-radius: 8px;
-    width: 70px;
-    height: 70px;
-
-}
+    margin-top: 10px;      /* Espaçamento superior de 10 pixels */
+    margin-right: -900px;  /* Deslocamento para a esquerda de 900 pixels (cuidado com valores negativos) */
+    border-radius: 8px;    /* Borda arredondada com raio de 8 pixels */
+    width: 70px;           /* Largura do componente de 70 pixels */
+    height: 70px;          /* Altura do componente de 70 pixels */
+  }
+  
