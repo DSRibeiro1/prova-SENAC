@@ -3,6 +3,7 @@
 // Importações
 import { useNavigate } from 'react-router-dom';
 import './TelaPagamento.css';
+
 import TabelaResumo from '../../Components/TabelaResumo/TabelaResumo';
 import QrCode from '../../Components/QrCode/QrCode';
 import BotoesPagamento from '../../Components/BotoesPagamento/BotoesPagamento';
