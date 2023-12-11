@@ -55,6 +55,7 @@ const TelaPagamento = () => {
       {/* Componente QrCode */}
       <QrCode />
 
+      
       {/* Mensagem adicional para apontar o celular */}
       <div>
         <p style={{ color: 'gold', whiteSpace: 'nowrap', marginBottom: '5px', marginLeft: '-6px', marginTop: '-3px' }}>
