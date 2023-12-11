@@ -41,6 +41,7 @@ const TelaPagamento = () => {
 
   // Estrutura da tela de pagamento
   return (
+    <>
     <div>
       {/* Título da tela */}
       <h2>Resumo do Pedido</h2>
@@ -62,11 +63,13 @@ const TelaPagamento = () => {
         <p style={{ color: 'gold', marginTop: '-12px', marginLeft: '-6px' }}>
           <small>{QRCODE_DESCRICAO_2}</small>
         </p>
+        
       </div>
 
       {/* Componente BotoesPagamento */}
       <BotoesPagamento onCancel={handleCancelar} onNewOrder={handleContinuarComprando} />
     </div>
+    </>
   );
 };
 
