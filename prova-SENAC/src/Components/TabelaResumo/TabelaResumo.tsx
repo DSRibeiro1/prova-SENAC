@@ -14,6 +14,7 @@ interface TabelaResumoProps {
 // Componente funcional TabelaResumo
 const TabelaResumo: React.FC<TabelaResumoProps> = ({ dados, totalSum }) => {
   return (
+    <>
     <div>
       {/* Tabela para exibir o resumo do pedido */}
       <table className="resumo-tabela">
@@ -39,6 +40,7 @@ const TabelaResumo: React.FC<TabelaResumoProps> = ({ dados, totalSum }) => {
         </tbody>
       </table>
     </div>
+    </>
   );
 };
 
