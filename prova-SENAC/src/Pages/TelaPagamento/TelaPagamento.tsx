@@ -52,6 +52,7 @@ const TelaPagamento = () => {
       {/* Descrição do QRCode */}
       <p>QrCode</p>
 
+      
       {/* Componente QrCode */}
       <QrCode />
 
