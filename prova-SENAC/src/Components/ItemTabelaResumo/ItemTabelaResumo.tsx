@@ -13,6 +13,7 @@ interface ItemTabelaResumoProps {
 const ItemTabelaResumo: React.FC<ItemTabelaResumoProps> = ({ item, index }) => {
   return (
     // Linha da tabela representando um item
+    <>
     <tr>
       {/* Coluna com o número do item */}
       <td>{`Item ${index + 1}`}</td>
@@ -23,6 +24,7 @@ const ItemTabelaResumo: React.FC<ItemTabelaResumoProps> = ({ item, index }) => {
       {/* Coluna com o valor do item, formatado com duas casas decimais */}
       <td>{item.itemValor.toFixed(2)}</td>
     </tr>
+    </>
   );
 };
 

@@ -10,6 +10,7 @@ interface BotoesPagamentoProps {
   // Componente funcional que exibe botões relacionados ao pagamento
   const BotoesPagamento: React.FC<BotoesPagamentoProps> = ({ onCancel, onNewOrder }) => {
     return (
+      <>
       <div>
         {/* Botão para cancelar o pagamento */}
         <button onClick={onCancel}>Cancelar</button>
@@ -17,6 +18,7 @@ interface BotoesPagamentoProps {
         {/* Botão para criar um novo pedido */}
         <button onClick={onNewOrder}>Novo Pedido</button>
       </div>
+      </>
     );
   };
   
